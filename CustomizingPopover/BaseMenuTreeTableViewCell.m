@@ -1,12 +1,12 @@
 //
-//  CVBaseMenuTreeTableViewCell.m
+//  BaseMenuTreeTableViewCell.m
 //  
 //
 //  Created by daniel kong on 8/13/13.
 //  Copyright (c) 2013 Broadvision. All rights reserved.
 //
 
-#import "CVBaseMenuTreeTableViewCell.h"
+#import "BaseMenuTreeTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define KOCOLOR_FILES_TITLE [UIColor colorWithRed:0.4 green:0.357 blue:0.325 alpha:1] /*#665b53*/
@@ -16,7 +16,7 @@
 #define KOFONT_FILES_TITLE [UIFont fontWithName:@"HelveticaNeue" size:20.0f]
 #define KOFONT_FILES_COUNTER [UIFont fontWithName:@"HelveticaNeue-Bold" size:12.0f]
 
-@implementation CVBaseMenuTreeTableViewCell
+@implementation BaseMenuTreeTableViewCell
 
 @synthesize backgroundImageView;
 @synthesize iconButton;
@@ -30,11 +30,11 @@
     if (self) {
         // Initialization code
 		
-		//backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"copymove-cell-bg"]];
-		//[backgroundImageView setContentMode:UIViewContentModeTopRight];
+		backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"copymove-cell-bg"]];
+		[backgroundImageView setContentMode:UIViewContentModeTopRight];
 		
-		//[self setBackgroundView:backgroundImageView];
-		//[self setSelectionStyle:UITableViewCellSelectionStyleNone];
+		[self setBackgroundView:backgroundImageView];
+		[self setSelectionStyle:UITableViewCellSelectionStyleNone];
 
 		iconButton = [UIButton buttonWithType:UIButtonTypeCustom];
 		[iconButton setFrame:CGRectMake(0, 20, 100, 180)];
