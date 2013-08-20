@@ -1,5 +1,5 @@
 //
-//  CVBaseMenuTreeItem.h
+//  BaseMenuTreeItem.h
 //  
 //
 //  Created by Daniel Kong on 8/13/13.
@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CVBaseMenuTreeItem : NSObject
+@interface BaseMenuTreeItem : NSObject
 
 @property (nonatomic, strong) NSString *path;
 @property (nonatomic, retain) NSString *base;
 @property (nonatomic, assign) NSInteger numberOfSubitems;
-@property (nonatomic, strong) CVBaseMenuTreeItem *parentSelectingItem;      
+@property (nonatomic, strong) BaseMenuTreeItem *parentSelectingItem;      
 @property (nonatomic, strong) NSMutableArray *ancestorSelectingItems;       
 @property (nonatomic, assign) NSInteger submersionLevel;
 
-- (BOOL) isEqualToSelectingItem:(CVBaseMenuTreeItem *)selectingItem;
+- (BOOL) isEqualToSelectingItem:(BaseMenuTreeItem *)selectingItem;
 
 @end
