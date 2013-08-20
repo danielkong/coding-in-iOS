@@ -1,5 +1,5 @@
 //
-//  CVBaseMenuTreeTableViewCell.h
+//  BaseMenuTreeTableViewCell.h
 //  
 //
 //  Created by daniel kong on 8/13/13.
@@ -8,24 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@class CVBaseMenuTreeTableViewCell;
-@class CVBaseMenuTreeItem;
+@class BaseMenuTreeTableViewCell;
+@class BaseMenuTreeItem;
 
-@protocol CVBaseMenuTreeTableViewCellDelegate  <NSObject>
+@protocol BaseMenuTreeTableViewCellDelegate  <NSObject>
 
-- (void)treeTableViewCell:(CVBaseMenuTreeTableViewCell *)cell didTapIconWithTreeItem:(CVBaseMenuTreeItem *)treeItem;
+- (void)treeTableViewCell:(BaseMenuTreeTableViewCell *)cell didTapIconWithTreeItem:(BaseMenuTreeItem *)treeItem;
 
 @end
 
-@interface CVBaseMenuTreeTableViewCell : UITableViewCell
+@interface BaseMenuTreeTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) UIImageView *backgroundImageView;
 @property (nonatomic, strong) UIButton *iconButton;
 @property (nonatomic, strong) UITextField *titleTextField;
 @property (nonatomic, strong) UILabel *countLabel;
 @property (nonatomic, strong) UIImageView *downArrowImage;
-@property (nonatomic, assign) id <CVBaseMenuTreeTableViewCellDelegate> delegate;
-@property (nonatomic, strong) CVBaseMenuTreeItem *treeItem;
+@property (nonatomic, assign) id <BaseMenuTreeTableViewCellDelegate> delegate;
+@property (nonatomic, strong) BaseMenuTreeItem *treeItem;
 
 - (void)setLevel:(NSInteger)pixels;
 
