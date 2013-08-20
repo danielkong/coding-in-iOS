@@ -1,5 +1,5 @@
 //
-//  CVPopoverBackgroundViewWhite.h
+//  PopoverBackgroundViewWhite.h
 //
 //
 //  Created by daniel kong on 8/14/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CVPopoverBackgroundViewWhite : UIPopoverBackgroundView
+@interface PopoverBackgroundViewWhite : UIPopoverBackgroundView
 
 @end
