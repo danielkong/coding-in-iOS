@@ -1,5 +1,5 @@
 //
-//  CVPulldownMenuViewController.h
+//  PulldownMenuViewController.h
 //  
 //
 //  Created by daniel kong on 8/12/13.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CVBaseMenuTreeTableViewCell.h"
+#import "BaseMenuTreeTableViewCell.h"
 
-@protocol CVPulldownMenuDelegate <NSObject>
+@protocol PulldownMenuDelegate <NSObject>
 
-- (void)didSelectMenuItem:(CVBaseMenuTreeItem*) menuItem;
+- (void)didSelectMenuItem:(BaseMenuTreeItem*) menuItem;
 @end
 
 @interface CVPulldownMenuViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, CVBaseMenuTreeTableViewCellDelegate>
@@ -20,9 +20,9 @@
 @property (nonatomic, strong) NSMutableArray *treeItems;
 @property (nonatomic, strong) NSMutableArray *selectedTreeItems;
 @property (nonatomic, strong) NSMutableArray *treeArray;    
-@property (nonatomic, strong) CVBaseMenuTreeItem *tmptreeItem;      
-@property (nonatomic, unsafe_unretained) id<CVPulldownMenuDelegate> delegate;
+@property (nonatomic, strong) BaseMenuTreeItem *tmptreeItem;      
+@property (nonatomic, unsafe_unretained) id<PulldownMenuDelegate> delegate;
 
-- (id)initWithDelegate:(id<CVPulldownMenuDelegate>)delegate forMenuFilter:(NSArray*)MenuArray;
+- (id)initWithDelegate:(id<PulldownMenuDelegate>)delegate forMenuFilter:(NSArray*)MenuArray;
 
 @end
