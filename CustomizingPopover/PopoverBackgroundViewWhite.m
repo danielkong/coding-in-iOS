@@ -1,24 +1,24 @@
 //
-//  CVPopoverBackgroundViewWhite.m
+//  PopoverBackgroundViewWhite.m
 //  
 //
 //  Created by daniel kong on 8/14/13.
 //  Copyright (c) 2013 Broadvision. All rights reserved.
 //
 
-#import "CVPopoverBackgroundViewWhite.h"
+#import "PopoverBackgroundViewWhite.h"
 #define kArrowBase 30.0f
 #define kArrowHeight 15.0f
 #define kBorderInset 0.0f
 
-@interface CVPopoverBackgroundViewWhite()
+@interface PopoverBackgroundViewWhite()
 @property (nonatomic, strong) UIImageView *arrowImageView;
 @property (nonatomic, strong) UIImageView *borderImageView;
 
 - (UIImage *)drawArrowImage:(CGSize)size;
 @end
 
-@implementation CVPopoverBackgroundViewWhite
+@implementation PopoverBackgroundViewWhite
 
 @synthesize arrowDirection  = _arrowDirection;
 @synthesize arrowOffset     = _arrowOffset;
