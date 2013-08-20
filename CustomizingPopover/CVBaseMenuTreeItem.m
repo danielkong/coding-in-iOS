@@ -1,14 +1,14 @@
 //
-//  CVBaseMenuTreeItem.m
+//  BaseMenuTreeItem.m
 //  
 //
 //  Created by Daniel Kong on 8/13/13.
 //  Copyright (c) 2013 Broadvision. All rights reserved.
 //
 
-#import "CVBaseMenuTreeItem.h"
+#import "BaseMenuTreeItem.h"
 
-@implementation CVBaseMenuTreeItem
+@implementation BaseMenuTreeItem
 
 @synthesize parentSelectingItem;
 @synthesize ancestorSelectingItems;
