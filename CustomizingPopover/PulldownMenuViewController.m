@@ -1,5 +1,5 @@
 //
-//  CVPulldownMenuViewController.m
+//  PulldownMenuViewController.m
 //  
 //
 //  Created by daniel kong on 8/12/13.
