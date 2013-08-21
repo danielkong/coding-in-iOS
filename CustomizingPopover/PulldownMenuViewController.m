@@ -39,41 +39,99 @@ NSInteger IndexOftreeArray = 0;
 
 - (void) builtTreeWithDataSource: (NSArray *)strings {
     NSInteger size = [strings count];
-    NSInteger k = size;    //size of array
+//
+//  This is the new input form for builtTreeWithDataSource method
+//    
+//        NSString a1=[NSString stringWithFormat:@"/%@",TYPE_OPTION_ALL_LS];
+//        NSString a2=[NSString stringWithFormat:@"/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_MAIL_LS];
+//        NSString a3=[NSString stringWithFormat:@"/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_CHAT_LS];
+//        NSString a4=[NSString stringWithFormat:@"/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_MESSAGE_LS];
+//        NSString a5=[NSString stringWithFormat:@"/%@/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_MESSAGE_LS,TYPE_OPTION_DISCUSSION_LS];
+//        NSString a6=[NSString stringWithFormat:@"/%@/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_MESSAGE_LS,TYPE_OPTION_FYI_LS];
+//        NSString a7=[NSString stringWithFormat:@"/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_TODO_LS];
+//        NSString a8=[NSString stringWithFormat:@"/%@/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_TODO_LS,TYPE_OPTION_ACTION_LS];
+//        NSString a9=[NSString stringWithFormat:@"/%@/%@/%@",TYPE_OPTION_ALL_LS,TYPE_OPTION_TODO_LS,TYPE_OPTION_APPROVAL_LS];
+//
+//        _typeOptions2=@[a1,a2,a3,a4,a5,a6,a7,a8,a9];
     
-    for (NSInteger i=0; i<size; i++) {
-        if ([[strings objectAtIndex:i] isKindOfClass:[NSArray class]]) {
-            k = [[strings objectAtIndex:i] count];
-            submesionlevel++;
-            [self builtTreeWithDataSource:[strings objectAtIndex:i]];
+    for (int i=0; i<size; i++) {
+        _tmptreeItem=[[CVBaseMenuTreeItem alloc] init];
+        _tmptreeItem.base=[[[strings objectAtIndex:i] componentsSeparatedByString: @"/"] lastObject];
+        if ([[[strings objectAtIndex:i] stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"/%@",_tmptreeItem.base] withString:@""]isEqual:@""]) {
+            _tmptreeItem.path=@"/";
         } else {
-            _tmptreeItem = [[CVBaseMenuTreeItem alloc] init];
-            if (i==0) {
-                _tmptreeItem.base = [strings objectAtIndex:0];
-                _tmptreeItem.path = _tempPath;
-                _tmptreeItem.submersionLevel=submesionlevel;
-                _tmptreeItem.numberOfSubitems=size-1;
-                _tmptreeItem.parentSelectingItem=_tempParent;
-                _tmptreeItem.ancestorSelectingItems=[NSMutableArray array];
-                _tempParent = [strings objectAtIndex:0];
-                _tempPath = [NSString stringWithFormat:@"%@%@/", _tempPath, [strings objectAtIndex:0]];
-            } else {
-                _tmptreeItem.base=[strings objectAtIndex:i];
-                _tmptreeItem.path= _tempPath;
-                _tmptreeItem.submersionLevel=submesionlevel+1;
-                _tmptreeItem.numberOfSubitems=0;
-                _tmptreeItem.parentSelectingItem=_tempParent;
-                _tmptreeItem.ancestorSelectingItems=[NSMutableArray array];
-            }
-            [_treeArray addObject:_tmptreeItem];
-            IndexOftreeArray++;
+            _tmptreeItem.path=[[strings objectAtIndex:i] stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"/%@",_tmptreeItem.base] withString:@""];
         }
+        _tmptreeItem.submersionLevel=[[[strings objectAtIndex:i] componentsSeparatedByString: @"/"] count]-2;
+        NSString *checkParentString=_tmptreeItem.path;
+        _tmptreeItem.parentItem=nil;
+        NSInteger numberOfSub=0;
+        for (int j=0; j<size; j++){
+            //To Do Get parentItem
+            if (j!=i && [[strings objectAtIndex:j] isEqualToString:checkParentString]) {
+                _tmptreeItem.parentItem=[strings objectAtIndex:j];
+            }
+            //To Do Get descendantItems
+            NSString *checkDescendantString=[[strings objectAtIndex:j] stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"/%@",[[[strings objectAtIndex:j] componentsSeparatedByString: @"/"] lastObject]] withString:@""];
+            if ([checkDescendantString isEqual:@""])
+                checkDescendantString=@"/";
+            if (j!=i && [checkDescendantString isEqualToString:[strings objectAtIndex:i]]) {
+                _tmptreeItem.descendantItems=[NSMutableArray array];
+                numberOfSub++;
+            }
+            _tmptreeItem.numberOfSubitems=numberOfSub;
+        }
+        [_treeArray addObject:_tmptreeItem];
     }
-    if (submesionlevel>0){
-        submesionlevel--;
-    }
-    NSArray* pathSplit = [_tempPath componentsSeparatedByString: @"/"];
-    _tempPath = [_tempPath stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"%@/",[pathSplit objectAtIndex: [pathSplit count]-2]] withString:@""];
+
+/////////////////////////////////////////////////////////////
+//     this is old method. The input form should like this. Since this is not easy for read, I create above method to save the path into each array item.
+//    #define TEST [NSArray arrayWithObjects:@"All",[NSArray arrayWithObjects:@"Mom",@"Name1",@"Job1",nil],[NSArray arrayWithObjects:@"Daddy",@"Name2",@"Job2",@"Company2",nil],nil]
+//             All
+//              |-Mom
+//                  |-Name1
+//                  |-Job1
+//              |-Daddy
+//                  |-Name2
+//                  |-Job2
+//                  |-Company2
+//
+//    NSInteger size = [strings count];
+//    NSInteger k = size;    //size of array
+//    
+//    for (NSInteger i=0; i<size; i++) {
+//        if ([[strings objectAtIndex:i] isKindOfClass:[NSArray class]]) {
+//            k = [[strings objectAtIndex:i] count];
+//            submesionlevel++;
+//            [self builtTreeWithDataSource:[strings objectAtIndex:i]];
+//        } else {
+//            _tmptreeItem = [[CVBaseMenuTreeItem alloc] init];
+//            if (i==0) {
+//                _tmptreeItem.base = [strings objectAtIndex:0];
+//                _tmptreeItem.path = _tempPath;
+//                _tmptreeItem.submersionLevel=submesionlevel;
+//                _tmptreeItem.numberOfSubitems=size-1;
+//                _tmptreeItem.parentSelectingItem=_tempParent;
+//                _tmptreeItem.ancestorSelectingItems=[NSMutableArray array];
+//                _tempParent = [strings objectAtIndex:0];
+//                _tempPath = [NSString stringWithFormat:@"%@%@/", _tempPath, [strings objectAtIndex:0]];
+//            } else {
+//                _tmptreeItem.base=[strings objectAtIndex:i];
+//                _tmptreeItem.path= _tempPath;
+//                _tmptreeItem.submersionLevel=submesionlevel+1;
+//                _tmptreeItem.numberOfSubitems=0;
+//                _tmptreeItem.parentSelectingItem=_tempParent;
+//                _tmptreeItem.ancestorSelectingItems=[NSMutableArray array];
+//            }
+//            [_treeArray addObject:_tmptreeItem];
+//            IndexOftreeArray++;
+//        }
+//    }
+//    if (submesionlevel>0){
+//        submesionlevel--;
+//    }
+//    NSArray* pathSplit = [_tempPath componentsSeparatedByString: @"/"];
+//    _tempPath = [_tempPath stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"%@/",[pathSplit objectAtIndex: [pathSplit count]-2]] withString:@""];
 }
 
 - (NSMutableArray*)listItemsAtPath:(NSString *)path {
