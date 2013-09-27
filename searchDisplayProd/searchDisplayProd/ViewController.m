@@ -23,6 +23,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
     self.mySearchBar.delegate = self;
     self.myTableView.delegate = self;
     self.myTableView.dataSource = self;
@@ -78,6 +79,23 @@
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     [self.myTableView resignFirstResponder];
+}
+
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+{
+    if(self.searchDisplayController.searchBar.text.length>0){
+        isFiltered = YES;
+        NSString * strSearchText = self.searchDisplayController.searchBar.text;
+        filteredStrings = [NSMutableArray array];
+        for (NSString *s in totalStrings){
+            if ([s rangeOfString:strSearchText].length>0){
+                [filteredStrings addObject:s];
+            }
+        }
+    } else {
+        isFiltered = NO;
+    }
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning
