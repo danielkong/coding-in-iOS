@@ -32,22 +32,22 @@
     
 }
 
-- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
-    if (searchText.length == 0) {
-        isFiltered = NO;
-    } else {
-        isFiltered = YES;
-        filteredStrings = [[NSMutableArray alloc] init];
-        for (NSString *str in totalStrings) {
-            NSRange stringRange = [str rangeOfString:searchText options:NSCaseInsensitiveSearch];
-            
-            if (stringRange.location != NSNotFound) {
-                [filteredStrings addObject:str];
-            }
-        }
-    }
-    [self.myTableView reloadData];
-}
+//- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+//    if (searchText.length == 0) {
+//        isFiltered = NO;
+//    } else {
+//        isFiltered = YES;
+//        filteredStrings = [[NSMutableArray alloc] init];
+//        for (NSString *str in totalStrings) {
+//            NSRange stringRange = [str rangeOfString:searchText options:NSCaseInsensitiveSearch];
+//            
+//            if (stringRange.location != NSNotFound) {
+//                [filteredStrings addObject:str];
+//            }
+//        }
+//    }
+//    [self.myTableView reloadData];
+//}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
