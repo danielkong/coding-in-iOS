@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
     
-    arrayCollectionImages = [[NSArray alloc] initWithObjects:@"x.png", @"k.png", @"o.png", @"n.png", @"g.png",nil];
+    arrayCollectionImages = [[NSArray alloc] initWithObjects:@"x", @"k", @"o", @"n", @"g",nil];
 
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
