@@ -11,5 +11,6 @@ Coding with objective C
 4. Customizing Settings based on UINavigation Controller. (Similar with iOS settings page.)
 5. Edit Chat message based on Chat View Controller.
 6. FetchParseJSON	Fetch parse JSON app	a month ago
+7. SettingViewController    as the same function as settings application in iOS
 
 
