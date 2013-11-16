@@ -13,7 +13,7 @@ Coding with objective C
 5. Edit Chat message based on Chat View Controller.
 6. FetchParseJSON	Fetch parse JSON app	a month ago
 7. SettingViewController    as the same function as settings application in iOS
-
+8. Create Client chat on iOS application, server with python.
 
 UIKit, Foundation, Three20
 
