@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>678F3B17-D4E0-4504-908A-E3E09C7DA26B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SocketWithoutStorybroad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42B4310C-7475-4185-B068-82293020C9DB</key>
+		<string>https://github.com/danielkong/coding-in-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>createSocket/SocketWithoutStorybroad/SocketWithoutStorybroad.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42B4310C-7475-4185-B068-82293020C9DB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/danielkong/coding-in-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>42B4310C-7475-4185-B068-82293020C9DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42B4310C-7475-4185-B068-82293020C9DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coding-in-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
