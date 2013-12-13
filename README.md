@@ -16,5 +16,8 @@ Coding with objective C
 8. Create Client chat on iOS application, server with python.
 9. Create ios app save data based on Web Service. Web service is built via PHP and MySQL. Using API: ASIHTTPRequest, MBProgressHUD, JSON.
 
+10. Implemented Load More Button, Login View Controller.
+11. Implemented Chat View Controller with MGSplitViewController.
+12. 
 UIKit, Foundation, Three20
 
