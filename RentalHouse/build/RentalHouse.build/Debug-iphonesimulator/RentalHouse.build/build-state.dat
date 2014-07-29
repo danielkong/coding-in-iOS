@@ -1,0 +1,860 @@
+TRentalHouse
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch RentalHouse/RentalHouse-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse normal i386
+cCopyStringsFile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/en.lproj/InfoPlist.strings RentalHouse/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/Images.xcassets
+cProcessInfoPlistFile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Info.plist /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist
+cGenerateDSYMFile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse
+cTouch /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053497CFC00000000000003B4
+t1397325052
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053497D06000000000000019E
+t1397325062
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053497D09000000000058E0E0
+t1397325065
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053497D0900000000005B82F0
+t1397325065
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053497D090000000000446820
+t1397325065
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053497D0900000000003599D0
+t1397325065
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053497D0A00000000002FC3B0
+t1397325066
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053497D09000000000004B000
+t1397325065
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053497D0A000000000088D8C0
+t1397325066
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053497D0C0000000000037680
+t1397325068
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053497D0C000000000048F720
+t1397325068
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053497D0C000000000013FD70
+t1397325068
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053497D0F0000000001F1DE10
+t1397325071
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000053497D1C00000000002BC360
+t1397325084
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c0000000053497D230000000000002338
+t1397325091
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c0000000053497D24000000000008D370
+t1397325092
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c0000000053497D240000000000392E20
+t1397325092
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005317788900000000000141F0
+t1394047113
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c0000000053497D240000000000014A80
+t1397325092
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c0000000053497D240000000000033BA0
+t1397325092
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c0000000053497D24000000000001CFB0
+t1397325092
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c0000000053497D24000000000001B2B0
+t1397325092
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c0000000053497D2400000000000C9570
+t1397325092
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c0000000053497D240000000000063280
+t1397325092
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c0000000053497D240000000000008880
+t1397325092
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c0000000053497D240000000000015080
+t1397325092
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c0000000053497D2400000000000230F0
+t1397325092
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c0000000053497D24000000000000E380
+t1397325092
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053497D240000000000089380
+t1397325092
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c0000000053497D240000000000017320
+t1397325092
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c0000000053497D240000000000039CD0
+t1397325092
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c0000000053497D24000000000000B0B0
+t1397325092
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c0000000053497D250000000000167E80
+t1397325093
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c0000000053497D2400000000000106A0
+t1397325092
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000053497D24000000000001CE40
+t1397325092
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c0000000053497D2400000000000740C0
+t1397325092
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000053497D24000000000006CA60
+t1397325092
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c0000000053497D24000000000001BAD0
+t1397325092
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c0000000053497D240000000000084A20
+t1397325092
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053497D5B0000000000000ADC
+t1397325147
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053497D5B000000000000514C
+t1397325147
+s20812
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.h
+c0000000053B11D2F000000000000011E
+t1404116271
+s286
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m
+c0000000053B57F6E00000000000008FD
+t1404403566
+s2301
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.h
+c0000000053B6C75F00000000000002DB
+t1404487519
+s731
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m
+c0000000053B6CBEF0000000000001628
+t1404488687
+s5672
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h
+c0000000053A1F90600000000000003BE
+t1403123974
+s958
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m
+c0000000053B57F490000000000002041
+t1404403529
+s8257
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/Images.xcassets
+c0000000053B11D2F0000000000000088
+t1404116271
+s136
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist
+c0000000053B11D2F0000000000000487
+t1404116271
+s1159
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Prefix.pch
+c0000000053B11D2F0000000000000158
+t1404116271
+s344
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h
+c0000000053B11FEB00000000000008E8
+t1404116971
+s2280
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m
+c0000000053B12007000000000000731A
+t1404116999
+s29466
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.h
+c0000000053A1F8F900000000000003C6
+t1403123961
+s966
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m
+c0000000053A1F8F90000000000000A09
+t1403123961
+s2569
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.h
+c0000000053A1F900000000000000015C
+t1403123968
+s348
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m
+c0000000053A1F900000000000000091C
+t1403123968
+s2332
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/en.lproj/InfoPlist.strings
+c0000000053B11D2F000000000000002D
+t1404116271
+s45
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m
+c0000000053B11D2F000000000000015A
+t1404116271
+s346
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app
+t1404488687
+s272
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM
+t1404488687
+s102
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Info.plist
+t1404116302
+s979
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/PkgInfo
+t1404116302
+s8
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse
+t1404488687
+s142088
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/en.lproj/InfoPlist.strings
+t1404116294
+s42
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o
+t1404487540
+s64408
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o
+t1404488687
+s83272
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o
+t1404403530
+s73012
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/RentalHouse.LinkFileList
+c0000000053B57F490000000000000461
+t1404403529
+s1121
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o
+t1404117000
+s159824
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o
+t1404403530
+s46092
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o
+t1404117446
+s45092
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o
+t1404116292
+s3592
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_dependencies.txt
+t1404116302
+s406
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_generated_info.plist
+t1404116302
+s525
+
+N/usr/lib/libSystem.B.dylib
+c0000000052D9DF90000000000000E6D0
+t1390010256
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000052D9DFA20000000000012A00
+t1390010274
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052D9DF7F000000000002E320
+t1390010239
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000052D9DF900000000000021860
+t1390010256
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000052D9DFA1000000000001B620
+t1390010273
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000052D9DFA100000000000BD920
+t1390010273
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c000000005317788900000000000141F0
+t1394047113
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052D9DFA2000000000000A120
+t1390010274
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053177889000000000001D550
+t1394047113
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000052D9DFA10000000000014EE0
+t1390010273
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000052D9DFA40000000000010380
+t1390010276
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052D9DFA4000000000000C4C0
+t1390010276
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000052D9DFA200000000000357A0
+t1390010274
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052D9DFA2000000000000C070
+t1390010274
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000531778520000000000168D00
+t1394047058
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000531778830000000000010630
+t1394047107
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053177889000000000001DF10
+t1394047113
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000052D9DF900000000000075B00
+t1390010256
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c000000005357F319000000000007CC70
+t1398272793
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000052D9DF9000000000000766C0
+t1390010256
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000531778890000000000044DC0
+t1394047113
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000052D9DF900000000000021FA0
+t1390010256
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000053177889000000000002D920
+t1394047113
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052D9DFA3000000000001E570
+t1390010275
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000053177871000000000000CC70
+t1394047089
+s52336
+
+N/usr/lib/system/libunc.dylib
+c0000000052D9DF9B000000000000C3F0
+t1390010267
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000052D9DFA300000000000199F0
+t1390010275
+s104944
+
+N/var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch
+t1404116292
+s116136
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescd7710af6687b941^87dc10af6687b941^---0#1#1#--18"Check dependencies36"A9BD8455-16E4-4EFD-A66E-8DD7FBBBF0B2-
+
+CCompileAssetCatalog /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/Images.xcassets
+s425809094.376387
+e425809102.111955
+r1
+xCompileAssetCatalog
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/LaunchImage-700-568h@2x.png
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Assets.car
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CompileAssetCatalog build/Debug-iphonesimulator/RentalHouse.app RentalHouse/Images.xcassets91"CompileAssetCatalog build/Debug-iphonesimulator/RentalHouse.app RentalHouse/Images.xcassetsd76d60c65461b941^7aa91cce5461b941^-434"/* com.apple.actool.compilation-results *//Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/LaunchImage-700-568h@2x.png/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Assets.car/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/Images.xcassets/0000000000000000^1204"CompileAssetCatalog build/Debug-iphonesimulator/RentalHouse.app RentalHouse/Images.xcassets    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/Images.xcassets36"7D58C0B9-28EF-4056-A61E-0CB5BF65AB89-
+b020B8F0E-B16C-4BF5-AD33-B0357551D4BE
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426180340.056988
+e426180340.289158
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.h
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.h
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m204"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o RentalHouse/ABAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler81d00ef4fe66b941^f0134bf4fe66b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m0000000000000000^3871"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o RentalHouse/ABAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o36"702D6FE0-882A-46B9-B495-026BF733B498-
+bFA193670-C072-45ED-98D1-815B4D4E3EC3
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426181487.563028
+e426181487.665206
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.h
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:76:2: warning: Potentially incomplete method implementation. [-W#warnings]
+o#warning Potentially incomplete method implementation.
+o ^
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:83:2: warning: Incomplete method implementation. [-W#warnings]
+o#warning Incomplete method implementation.
+o ^
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:105:43: warning: undeclared selector 'switchChanged:' [-Wundeclared-selector]
+o        [theSwitch addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
+o                                          ^
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:108:19: warning: incompatible pointer types assigning to 'UISwitch *' from 'UIView *' [-Wincompatible-pointer-types]
+o        theSwitch = [cell.contentView viewWithTag:100];
+o                  ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m228"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o RentalHouse/IPhoneHouseViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf244906f0367b941^5856aa6f0367b941^-1107"/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:76:2: warning: Potentially incomplete method implementation. [-W#warnings]#warning Potentially incomplete method implementation. ^/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:83:2: warning: Incomplete method implementation. [-W#warnings]#warning Incomplete method implementation. ^/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:105:43: warning: undeclared selector 'switchChanged:' [-Wundeclared-selector]        [theSwitch addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];                                          ^/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m:108:19: warning: incompatible pointer types assigning to 'UISwitch *' from 'UIView *' [-Wincompatible-pointer-types]        theSwitch = [cell.contentView viewWithTag:100];                  ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@45"Potentially incomplete method implementation.-426181487#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m0000000000000000^75#1#75#1#2399#0#18"#warning Directive--2@33"Incomplete method implementation.-426181487#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m0000000000000000^82#1#82#1#2600#0#18"#warning Directive--2@36"Undeclared selector 'switchChanged:'-426181487#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m0000000000000000^104#42#104#42#3510#0#14"Semantic Issue--2@68"Incompatible pointer types assigning to 'UISwitch *' from 'UIView *'-426181487#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m0000000000000000^107#18#107#18#3661#0#14"Semantic Issue1(3@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m0000000000000000^107#20#107#54#3663#33#-0#0#1#-19%DVTDocumentLocation4@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m0000000000000000^3943"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o RentalHouse/IPhoneHouseViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneHouseViewController.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o36"AAE9BD0F-A28C-456F-A9A2-C872391FF92B-
+bC6BCD0B6-1811-47C4-9747-4BFA4A2F4FEE
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426096329.601758
+e426096330.419876
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.h
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:40:17: warning: method definition for 'showLoadingIndicator:' not found [-Wincomplete-implementation]
+o@implementation IPhoneMVTopBar
+o                ^
+oIn file included from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:9:
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h:28:1: note: method 'showLoadingIndicator:' declared here
+o- (void)showLoadingIndicator:(BOOL)isLoading;
+o^
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:40:17: warning: method definition for 'beginAnimateTitleThemeBar' not found [-Wincomplete-implementation]
+o@implementation IPhoneMVTopBar
+o                ^
+oIn file included from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:9:
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h:29:1: note: method 'beginAnimateTitleThemeBar' declared here
+o- (void)beginAnimateTitleThemeBar;
+o^
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:40:17: warning: method definition for 'endAnimateTitleThemeBar' not found [-Wincomplete-implementation]
+o@implementation IPhoneMVTopBar
+o                ^
+oIn file included from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:9:
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h:30:1: note: method 'endAnimateTitleThemeBar' declared here
+o- (void)endAnimateTitleThemeBar;
+o^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m206"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o RentalHouse/IPhoneMVTopBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler732d9ac9b665b941^a06f6fcab665b941^-1609"/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:40:17: warning: method definition for 'showLoadingIndicator:' not found [-Wincomplete-implementation]@implementation IPhoneMVTopBar                ^In file included from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:9:/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h:28:1: note: method 'showLoadingIndicator:' declared here- (void)showLoadingIndicator:(BOOL)isLoading;^/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:40:17: warning: method definition for 'beginAnimateTitleThemeBar' not found [-Wincomplete-implementation]@implementation IPhoneMVTopBar                ^In file included from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:9:/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h:29:1: note: method 'beginAnimateTitleThemeBar' declared here- (void)beginAnimateTitleThemeBar;^/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:40:17: warning: method definition for 'endAnimateTitleThemeBar' not found [-Wincomplete-implementation]@implementation IPhoneMVTopBar                ^In file included from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m:9:/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h:30:1: note: method 'endAnimateTitleThemeBar' declared here- (void)endAnimateTitleThemeBar;^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@55"Method definition for 'showLoadingIndicator:' not found-426096330#18446744073709551615#0#1(2@44"Method 'showLoadingIndicator:' declared here-426096330#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h0000000000000000^27#0#27#0#838#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m0000000000000000^39#16#39#16#1013#0#14"Semantic Issue--2@59"Method definition for 'beginAnimateTitleThemeBar' not found-426096330#18446744073709551615#0#1(2@48"Method 'beginAnimateTitleThemeBar' declared here-426096330#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h0000000000000000^28#0#28#0#884#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m0000000000000000^39#16#39#16#1013#0#14"Semantic Issue--2@57"Method definition for 'endAnimateTitleThemeBar' not found-426096330#18446744073709551615#0#1(2@46"Method 'endAnimateTitleThemeBar' declared here-426096330#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.h0000000000000000^29#0#29#0#919#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m0000000000000000^39#16#39#16#1013#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@90"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m0000000000000000^3877"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o RentalHouse/IPhoneMVTopBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/IPhoneMVTopBar.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o36"6B2B8EE2-DCBD-40D5-9AFD-1F3AB315D288-
+b8EDDEF8A-76AF-426D-B84D-A6840A7E663E
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425809800.717662
+e425809801.000778
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m:284:50: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]
+o        CGSize titleSize = [self.titleLabel.text sizeWithFont:self.titleLabel.font
+o                                                 ^
+oIn module 'UIKit' imported from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h:10:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size
+o^
+o/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m:289:56: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]
+o        CGSize subtitleSize = [self.subtitleLabel.text sizeWithFont:self.subtitleLabel.font
+o                                                       ^
+oIn module 'UIKit' imported from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h:10:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size
+o^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m234"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o RentalHouse/UIScrollView+SVPullToRefresh.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd0d4b7885761b941^5b2401895761b941^-2189"/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m:284:50: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]        CGSize titleSize = [self.titleLabel.text sizeWithFont:self.titleLabel.font                                                 ^In module 'UIKit' imported from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h:10:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size^/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m:289:56: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]        CGSize subtitleSize = [self.subtitleLabel.text sizeWithFont:self.subtitleLabel.font                                                       ^In module 'UIKit' imported from /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.h:10:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size^2 warnings generated.-0#0#1#-19%DVTDocumentLocation2@104"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m0000000000000000^3961"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o RentalHouse/UIScrollView+SVPullToRefresh.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIScrollView+SVPullToRefresh.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o36"C2A6CEFD-A69A-4C2F-8761-24150749DE9A-
+b15B0A67C-1760-4B84-B7AC-3FF9BE8B6F22
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426096329.603535
+e426096330.395004
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m226"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o RentalHouse/UIView+CVUIViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileracab9ac9b665b941^28f169cab665b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m0000000000000000^3937"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o RentalHouse/UIView+CVUIViewAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+CVUIViewAdditions.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o36"1BF68CAA-0C01-4D92-92B2-8B8D28CC0D3D-
+b8EDDEF8A-76AF-426D-B84D-A6840A7E663E
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425810246.593268
+e425810246.743505
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m216"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o RentalHouse/UIView+RoundCorners.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1fa97465961b941^de56be465961b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m0000000000000000^3907"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o RentalHouse/UIView+RoundCorners.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/UIView+RoundCorners.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o36"ED237456-3F90-45C6-AEE8-CD649B2DAE47-
+b70197DFF-8861-4CAF-8E87-41485B2D512D
+
+CCompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425809092.749040
+e425809092.887191
+r1
+xCompileC
+xbuild/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/ABAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m186"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o RentalHouse/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere3dfbfc45461b941^e222e3c45461b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m0000000000000000^3817"CompileC build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o RentalHouse/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/main.m -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o36"30F733C4-6422-4807-A74A-71B2998C8689-
+b020B8F0E-B16C-4BF5-AD33-B0357551D4BE
+
+CCopyStringsFile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/en.lproj/InfoPlist.strings RentalHouse/en.lproj/InfoPlist.strings
+s425809094.376060
+e425809094.377409
+r1
+xCopyStringsFile
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/en.lproj/InfoPlist.strings
+xRentalHouse/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy RentalHouse/en.lproj/InfoPlist.strings125"CopyStringsFile build/Debug-iphonesimulator/RentalHouse.app/en.lproj/InfoPlist.strings RentalHouse/en.lproj/InfoPlist.strings5c5760c65461b941^679e60c65461b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/en.lproj/InfoPlist.strings0000000000000000^623"CopyStringsFile build/Debug-iphonesimulator/RentalHouse.app/en.lproj/InfoPlist.strings RentalHouse/en.lproj/InfoPlist.strings    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/en.lproj -- RentalHouse/en.lproj/InfoPlist.strings36"E293F9F0-38BB-4F17-9914-6F094DE8601D-
+b020B8F0E-B16C-4BF5-AD33-B0357551D4BE
+
+CGenerateDSYMFile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse
+s426181487.703036
+e426181487.725697
+r1
+xGenerateDSYMFile
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Generate /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM121"GenerateDSYMFile build/Debug-iphonesimulator/RentalHouse.app.dSYM build/Debug-iphonesimulator/RentalHouse.app/RentalHouse5b06b46f0367b941^26c7b96f0367b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM/0000000000000000^697"GenerateDSYMFile build/Debug-iphonesimulator/RentalHouse.app.dSYM build/Debug-iphonesimulator/RentalHouse.app/RentalHouse    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app.dSYM36"0E58D113-22EB-4390-B8C1-9FB76F8812C3-
+bC6BCD0B6-1811-47C4-9747-4BFA4A2F4FEE
+
+CLd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse normal i386
+s426181487.667592
+e426181487.701496
+r1
+xLd
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse
+xnormal
+xi386
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/RentalHouse.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/main.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+CVUIViewAdditions.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneMVTopBar.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/IPhoneHouseViewController.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/UIView+RoundCorners.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/ABAppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse70"Ld build/Debug-iphonesimulator/RentalHouse.app/RentalHouse normal i386e3ffaa6f0367b941^e695b36f0367b941^---0#0#1#--1461"Ld build/Debug-iphonesimulator/RentalHouse.app/RentalHouse normal i386    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator -filelist /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/RentalHouse.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/Objects-normal/i386/RentalHouse_dependency_info.dat -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/RentalHouse36"D1820C9E-ED06-4392-9D20-AC45147DC736-
+bC6BCD0B6-1811-47C4-9747-4BFA4A2F4FEE
+
+CProcessInfoPlistFile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Info.plist /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist
+s425809102.112517
+e425809102.125418
+r1
+xProcessInfoPlistFile
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Info.plist
+x/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Process /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist110"ProcessInfoPlistFile build/Debug-iphonesimulator/RentalHouse.app/Info.plist RentalHouse/RentalHouse-Info.plistc2de1cce5461b941^3f1c20ce5461b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist0000000000000000^957"ProcessInfoPlistFile build/Debug-iphonesimulator/RentalHouse.app/Info.plist RentalHouse/RentalHouse-Info.plist    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Info.plist -genpkginfo /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/assetcatalog_generated_info.plist -o /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app/Info.plist36"0F512494-4A8D-4AFC-8FB6-B1743D9434A0-
+b020B8F0E-B16C-4BF5-AD33-B0357551D4BE
+
+CProcessPCH /Users/cvdeveloper/Library/Developer/Xcode/DerivedData/RentalHouse-fcbjznzdyytdqmgrloutinopephi/Index/PrecompiledHeaders/RentalHouse-Prefix-etwfurqlntamuseohrfttzzavcnk_ast/RentalHouse-Prefix.pch.pch RentalHouse/RentalHouse-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch RentalHouse/RentalHouse-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425809091.228326
+e425809092.748282
+r1
+xProcessPCH
+x/var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch
+xRentalHouse/RentalHouse-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile RentalHouse/RentalHouse-Prefix.pch306"ProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch RentalHouse/RentalHouse-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4b933ac35461b941^bd8fbfc45461b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Prefix.pch0000000000000000^3899"ProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch RentalHouse/RentalHouse-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/RentalHouse-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/RentalHouse.build/Debug-iphonesimulator/RentalHouse.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.d -c /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/RentalHouse/RentalHouse-Prefix.pch -o /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/RentalHouse-Prefix-gmskahwwolxevjeqgdzfjzungizj/RentalHouse-Prefix.pch.pch36"55887177-81C0-4DAE-A162-C8C31B947C4B-
+b020B8F0E-B16C-4BF5-AD33-B0357551D4BE
+
+CTouch /Users/cvdeveloper/Documents/coding-in-iOS/RentalHouse/build/Debug-iphonesimulator/RentalHouse.app
+r0
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F4807B9-CF5C-46DD-A586-A5919C83E686</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StreamApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>220ED906-D35D-435F-BA12-ECAABA8193FE</key>
+		<string>https://github.com/danielkong/coding-in-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Facebook_ios/StreamApp/StreamApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>220ED906-D35D-435F-BA12-ECAABA8193FE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/danielkong/coding-in-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>220ED906-D35D-435F-BA12-ECAABA8193FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>220ED906-D35D-435F-BA12-ECAABA8193FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coding-in-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

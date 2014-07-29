@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0968A71965B68F00243001 /* UIView+CVUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0968A61965B68F00243001 /* UIView+CVUIViewAdditions.m */; };
+		8E18DAD2196154AF00C8C627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18DAD1196154AF00C8C627 /* Foundation.framework */; };
+		8E18DAD4196154AF00C8C627 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18DAD3196154AF00C8C627 /* CoreGraphics.framework */; };
+		8E18DAD6196154AF00C8C627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18DAD5196154AF00C8C627 /* UIKit.framework */; };
+		8E18DADC196154AF00C8C627 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E18DADA196154AF00C8C627 /* InfoPlist.strings */; };
+		8E18DADE196154AF00C8C627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DADD196154AF00C8C627 /* main.m */; };
+		8E18DAE2196154AF00C8C627 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DAE1196154AF00C8C627 /* ABAppDelegate.m */; };
+		8E18DAE4196154AF00C8C627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18DAE3196154AF00C8C627 /* Images.xcassets */; };
+		8E18DAEB196154B000C8C627 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18DAEA196154B000C8C627 /* XCTest.framework */; };
+		8E18DAEC196154B000C8C627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18DAD1196154AF00C8C627 /* Foundation.framework */; };
+		8E18DAED196154B000C8C627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18DAD5196154AF00C8C627 /* UIKit.framework */; };
+		8E18DAF5196154B000C8C627 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E18DAF3196154B000C8C627 /* InfoPlist.strings */; };
+		8E18DAF7196154B000C8C627 /* RentalHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DAF6196154B000C8C627 /* RentalHouseTests.m */; };
+		8E18DB231961560D00C8C627 /* IPhoneHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DB221961560D00C8C627 /* IPhoneHouseViewController.m */; };
+		8E18DB261961571D00C8C627 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DB251961571D00C8C627 /* UIScrollView+SVPullToRefresh.m */; };
+		8E18DB29196158F700C8C627 /* IPhoneMVTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DB28196158F700C8C627 /* IPhoneMVTopBar.m */; };
+		8E18DB2C1961594100C8C627 /* UIView+RoundCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18DB2B1961594100C8C627 /* UIView+RoundCorners.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E18DAEE196154B000C8C627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E18DAC6196154AF00C8C627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E18DACD196154AF00C8C627;
+			remoteInfo = RentalHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E0968A51965B68F00243001 /* UIView+CVUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CVUIViewAdditions.h"; sourceTree = "<group>"; };
+		8E0968A61965B68F00243001 /* UIView+CVUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CVUIViewAdditions.m"; sourceTree = "<group>"; };
+		8E18DACE196154AF00C8C627 /* RentalHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentalHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E18DAD1196154AF00C8C627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E18DAD3196154AF00C8C627 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E18DAD5196154AF00C8C627 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E18DAD9196154AF00C8C627 /* RentalHouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RentalHouse-Info.plist"; sourceTree = "<group>"; };
+		8E18DADB196154AF00C8C627 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E18DADD196154AF00C8C627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E18DADF196154AF00C8C627 /* RentalHouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RentalHouse-Prefix.pch"; sourceTree = "<group>"; };
+		8E18DAE0196154AF00C8C627 /* ABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
+		8E18DAE1196154AF00C8C627 /* ABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
+		8E18DAE3196154AF00C8C627 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E18DAE9196154B000C8C627 /* RentalHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentalHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E18DAEA196154B000C8C627 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E18DAF2196154B000C8C627 /* RentalHouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RentalHouseTests-Info.plist"; sourceTree = "<group>"; };
+		8E18DAF4196154B000C8C627 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E18DAF6196154B000C8C627 /* RentalHouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalHouseTests.m; sourceTree = "<group>"; };
+		8E18DB211961560D00C8C627 /* IPhoneHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneHouseViewController.h; sourceTree = "<group>"; };
+		8E18DB221961560D00C8C627 /* IPhoneHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneHouseViewController.m; sourceTree = "<group>"; };
+		8E18DB241961571D00C8C627 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		8E18DB251961571D00C8C627 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		8E18DB27196158F700C8C627 /* IPhoneMVTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneMVTopBar.h; sourceTree = "<group>"; };
+		8E18DB28196158F700C8C627 /* IPhoneMVTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneMVTopBar.m; sourceTree = "<group>"; };
+		8E18DB2A1961594100C8C627 /* UIView+RoundCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorners.h"; sourceTree = "<group>"; };
+		8E18DB2B1961594100C8C627 /* UIView+RoundCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorners.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E18DACB196154AF00C8C627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E18DAD4196154AF00C8C627 /* CoreGraphics.framework in Frameworks */,
+				8E18DAD6196154AF00C8C627 /* UIKit.framework in Frameworks */,
+				8E18DAD2196154AF00C8C627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E18DAE6196154B000C8C627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E18DAEB196154B000C8C627 /* XCTest.framework in Frameworks */,
+				8E18DAED196154B000C8C627 /* UIKit.framework in Frameworks */,
+				8E18DAEC196154B000C8C627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E18DAC5196154AF00C8C627 = {
+			isa = PBXGroup;
+			children = (
+				8E18DAD7196154AF00C8C627 /* RentalHouse */,
+				8E18DAF0196154B000C8C627 /* RentalHouseTests */,
+				8E18DAD0196154AF00C8C627 /* Frameworks */,
+				8E18DACF196154AF00C8C627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E18DACF196154AF00C8C627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E18DACE196154AF00C8C627 /* RentalHouse.app */,
+				8E18DAE9196154B000C8C627 /* RentalHouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E18DAD0196154AF00C8C627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E18DAD1196154AF00C8C627 /* Foundation.framework */,
+				8E18DAD3196154AF00C8C627 /* CoreGraphics.framework */,
+				8E18DAD5196154AF00C8C627 /* UIKit.framework */,
+				8E18DAEA196154B000C8C627 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E18DAD7196154AF00C8C627 /* RentalHouse */ = {
+			isa = PBXGroup;
+			children = (
+				8E0968A51965B68F00243001 /* UIView+CVUIViewAdditions.h */,
+				8E0968A61965B68F00243001 /* UIView+CVUIViewAdditions.m */,
+				8E18DB27196158F700C8C627 /* IPhoneMVTopBar.h */,
+				8E18DB28196158F700C8C627 /* IPhoneMVTopBar.m */,
+				8E18DB2A1961594100C8C627 /* UIView+RoundCorners.h */,
+				8E18DB2B1961594100C8C627 /* UIView+RoundCorners.m */,
+				8E18DAE0196154AF00C8C627 /* ABAppDelegate.h */,
+				8E18DAE1196154AF00C8C627 /* ABAppDelegate.m */,
+				8E18DB211961560D00C8C627 /* IPhoneHouseViewController.h */,
+				8E18DB221961560D00C8C627 /* IPhoneHouseViewController.m */,
+				8E18DB241961571D00C8C627 /* UIScrollView+SVPullToRefresh.h */,
+				8E18DB251961571D00C8C627 /* UIScrollView+SVPullToRefresh.m */,
+				8E18DAE3196154AF00C8C627 /* Images.xcassets */,
+				8E18DAD8196154AF00C8C627 /* Supporting Files */,
+			);
+			path = RentalHouse;
+			sourceTree = "<group>";
+		};
+		8E18DAD8196154AF00C8C627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E18DAD9196154AF00C8C627 /* RentalHouse-Info.plist */,
+				8E18DADA196154AF00C8C627 /* InfoPlist.strings */,
+				8E18DADD196154AF00C8C627 /* main.m */,
+				8E18DADF196154AF00C8C627 /* RentalHouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E18DAF0196154B000C8C627 /* RentalHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E18DAF6196154B000C8C627 /* RentalHouseTests.m */,
+				8E18DAF1196154B000C8C627 /* Supporting Files */,
+			);
+			path = RentalHouseTests;
+			sourceTree = "<group>";
+		};
+		8E18DAF1196154B000C8C627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E18DAF2196154B000C8C627 /* RentalHouseTests-Info.plist */,
+				8E18DAF3196154B000C8C627 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E18DACD196154AF00C8C627 /* RentalHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E18DAFA196154B000C8C627 /* Build configuration list for PBXNativeTarget "RentalHouse" */;
+			buildPhases = (
+				8E18DACA196154AF00C8C627 /* Sources */,
+				8E18DACB196154AF00C8C627 /* Frameworks */,
+				8E18DACC196154AF00C8C627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentalHouse;
+			productName = RentalHouse;
+			productReference = 8E18DACE196154AF00C8C627 /* RentalHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E18DAE8196154B000C8C627 /* RentalHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E18DAFD196154B000C8C627 /* Build configuration list for PBXNativeTarget "RentalHouseTests" */;
+			buildPhases = (
+				8E18DAE5196154B000C8C627 /* Sources */,
+				8E18DAE6196154B000C8C627 /* Frameworks */,
+				8E18DAE7196154B000C8C627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E18DAEF196154B000C8C627 /* PBXTargetDependency */,
+			);
+			name = RentalHouseTests;
+			productName = RentalHouseTests;
+			productReference = 8E18DAE9196154B000C8C627 /* RentalHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E18DAC6196154AF00C8C627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "CV Developer";
+				TargetAttributes = {
+					8E18DAE8196154B000C8C627 = {
+						TestTargetID = 8E18DACD196154AF00C8C627;
+					};
+				};
+			};
+			buildConfigurationList = 8E18DAC9196154AF00C8C627 /* Build configuration list for PBXProject "RentalHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E18DAC5196154AF00C8C627;
+			productRefGroup = 8E18DACF196154AF00C8C627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E18DACD196154AF00C8C627 /* RentalHouse */,
+				8E18DAE8196154B000C8C627 /* RentalHouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E18DACC196154AF00C8C627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E18DADC196154AF00C8C627 /* InfoPlist.strings in Resources */,
+				8E18DAE4196154AF00C8C627 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E18DAE7196154B000C8C627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E18DAF5196154B000C8C627 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E18DACA196154AF00C8C627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E18DB261961571D00C8C627 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				8E18DADE196154AF00C8C627 /* main.m in Sources */,
+				8E0968A71965B68F00243001 /* UIView+CVUIViewAdditions.m in Sources */,
+				8E18DB29196158F700C8C627 /* IPhoneMVTopBar.m in Sources */,
+				8E18DB231961560D00C8C627 /* IPhoneHouseViewController.m in Sources */,
+				8E18DB2C1961594100C8C627 /* UIView+RoundCorners.m in Sources */,
+				8E18DAE2196154AF00C8C627 /* ABAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E18DAE5196154B000C8C627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E18DAF7196154B000C8C627 /* RentalHouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E18DAEF196154B000C8C627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E18DACD196154AF00C8C627 /* RentalHouse */;
+			targetProxy = 8E18DAEE196154B000C8C627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E18DADA196154AF00C8C627 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E18DADB196154AF00C8C627 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E18DAF3196154B000C8C627 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E18DAF4196154B000C8C627 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E18DAF8196154B000C8C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E18DAF9196154B000C8C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E18DAFB196154B000C8C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentalHouse/RentalHouse-Prefix.pch";
+				INFOPLIST_FILE = "RentalHouse/RentalHouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E18DAFC196154B000C8C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentalHouse/RentalHouse-Prefix.pch";
+				INFOPLIST_FILE = "RentalHouse/RentalHouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E18DAFE196154B000C8C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RentalHouse.app/RentalHouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentalHouse/RentalHouse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RentalHouseTests/RentalHouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8E18DAFF196154B000C8C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RentalHouse.app/RentalHouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentalHouse/RentalHouse-Prefix.pch";
+				INFOPLIST_FILE = "RentalHouseTests/RentalHouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E18DAC9196154AF00C8C627 /* Build configuration list for PBXProject "RentalHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E18DAF8196154B000C8C627 /* Debug */,
+				8E18DAF9196154B000C8C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E18DAFA196154B000C8C627 /* Build configuration list for PBXNativeTarget "RentalHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E18DAFB196154B000C8C627 /* Debug */,
+				8E18DAFC196154B000C8C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E18DAFD196154B000C8C627 /* Build configuration list for PBXNativeTarget "RentalHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E18DAFE196154B000C8C627 /* Debug */,
+				8E18DAFF196154B000C8C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E18DAC6196154AF00C8C627 /* Project object */;
+}
