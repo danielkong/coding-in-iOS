@@ -73,14 +73,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return 20;
 }
@@ -103,7 +101,7 @@
         theSwitch.frame = frame;
         theSwitch.tag = 100;
         [theSwitch addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
-        [cell.contentView addSubview:theSwitch];
+//        [cell.contentView addSubview:theSwitch];
     } else {
         theSwitch = [cell.contentView viewWithTag:100];
     }

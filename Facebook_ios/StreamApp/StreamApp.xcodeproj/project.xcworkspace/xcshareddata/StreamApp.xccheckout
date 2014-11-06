@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9F4807B9-CF5C-46DD-A586-A5919C83E686</string>
+	<string>AE8882DD-70F0-471B-A366-02AABA02691F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>StreamApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>220ED906-D35D-435F-BA12-ECAABA8193FE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>coding-in-iOS</string>
+			<string>StreamApp</string>
 		</dict>
 	</array>
 </dict>

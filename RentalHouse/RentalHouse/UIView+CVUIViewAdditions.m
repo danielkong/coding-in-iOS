@@ -2,7 +2,6 @@
 //  UIView+CVUIViewAdditions.m
 //  Vmoso
 //
-//  Created by Bin Zhou on 4/17/13.
 //  Copyright (c) 2013 Broadvision. All rights reserved.
 //
 

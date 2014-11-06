@@ -1,0 +1,356 @@
+TStreamApp
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp normal i386
+cCompileStoryboard /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPad.storyboard
+cCompileStoryboard /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPhone.storyboard
+cCopyStringsFile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/en.lproj/InfoPlist.strings StreamApp/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Images.xcassets
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053497CFC00000000000003B4
+t1397325052
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053497D06000000000000019E
+t1397325062
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053497D090000000000446820
+t1397325065
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053497D0A000000000088D8C0
+t1397325066
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053497D0F0000000001F1DE10
+t1397325071
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053497D5B0000000000000ADC
+t1397325147
+s2780
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/FacebookSDK.framework/FacebookSDK
+c0000000053C80DED0000000001B504E4
+t1405619693
+s28640484
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPad.storyboard
+c0000000053D72FB20000000000000715
+t1406611378
+s1813
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPhone.storyboard
+c0000000053D72FB2000000000000071D
+t1406611378
+s1821
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m
+c0000000053D72FB200000000000007DB
+t1406611378
+s2011
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m
+c0000000053D72FB200000000000001F3
+t1406611378
+s499
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Images.xcassets
+c0000000053D72FB20000000000000088
+t1406611378
+s136
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/StreamApp-Prefix.pch
+c0000000053D72FB20000000000000158
+t1406611378
+s344
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/en.lproj/InfoPlist.strings
+c0000000053D72FB2000000000000002D
+t1406611378
+s45
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m
+c0000000053D72FB20000000000000153
+t1406611378
+s339
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Base.lproj/Main_iPad.storyboardc
+t2
+s0
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Base.lproj/Main_iPhone.storyboardc
+t2
+s0
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp
+t2
+s0
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o
+t1406612380
+s62544
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o
+t1406612380
+s39084
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/StreamApp.LinkFileList
+c0000000053D7339B00000000000001E0
+t1406612379
+s480
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o
+t1406612380
+s3620
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/assetcatalog_dependencies.txt
+t2
+s0
+
+N/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/assetcatalog_generated_info.plist
+t2
+s0
+
+N/var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch
+t1406612379
+s122532
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m
+r0
+
+CBuild AST from /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfd4a2f1b6b87b941^97ff401b6b87b941^---0#1#1#--18"Check dependencies36"61008E83-8DB1-44A3-98B0-28969535FAAE-
+
+CCompileAssetCatalog /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Images.xcassets
+s428305180.519065
+e428305184.405929
+r1
+xCompileAssetCatalog
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/LaunchImage-700-568h@2x.png
+o/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Assets.car
+o/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"CompileAssetCatalog build/Debug-iphonesimulator/StreamApp.app StreamApp/Images.xcassets87"CompileAssetCatalog build/Debug-iphonesimulator/StreamApp.app StreamApp/Images.xcassetsa5f8841c6b87b941^e1eb67206b87b941^-459"/* com.apple.actool.compilation-results *//Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/LaunchImage-700-568h@2x.png/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Assets.car/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@99"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Images.xcassets/0000000000000000^1264"CompileAssetCatalog build/Debug-iphonesimulator/StreamApp.app StreamApp/Images.xcassets    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Images.xcassets36"669B169B-D625-4581-81A7-D8C64B3F4747-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CCompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428305179.904455
+e428305180.157368
+r1
+xCompileC
+xbuild/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m198"CompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o StreamApp/DKAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2db4e71b6b87b941^dc49281c6b87b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m0000000000000000^4026"CompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o StreamApp/DKAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.m -o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o36"B6A9D95D-9D86-4270-9507-404E70F035D6-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CCompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428305179.903973
+e428305180.137048
+r1
+xCompileC
+xbuild/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m204"CompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o StreamApp/DKViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0188e71b6b87b941^9016231c6b87b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m0000000000000000^4044"CompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o StreamApp/DKViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKViewController.m -o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o36"15D05D6A-2351-4807-8F5E-8E825DDB674C-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CCompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428305179.903476
+e428305180.058705
+r1
+xCompileC
+xbuild/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/DKAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m180"CompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o StreamApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6072e71b6b87b941^89080f1c6b87b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m0000000000000000^3972"CompileC build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o StreamApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp -include /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch -MMD -MT dependencies -MF /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.dia -c /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/main.m -o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o36"F8EEE9EE-D3B5-4F9F-B2A4-E8868B3676E7-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CCompileStoryboard /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPad.storyboard
+s428305180.517473
+e428305184.807249
+r1
+xCompileStoryboard
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CompileStoryboard StreamApp/Base.lproj/Main_iPad.storyboard59"CompileStoryboard StreamApp/Base.lproj/Main_iPad.storyboard118b841c6b87b941^d6a9ce206b87b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPad.storyboard0000000000000000^932"CompileStoryboard StreamApp/Base.lproj/Main_iPad.storyboard    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Base.lproj/Main_iPad.storyboardc /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPad.storyboard36"226E1B02-76A9-4326-AAEF-EB93B6CA2F73-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CCompileStoryboard /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPhone.storyboard
+s428305180.517629
+e428305184.807321
+r1
+xCompileStoryboard
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard StreamApp/Base.lproj/Main_iPhone.storyboard61"CompileStoryboard StreamApp/Base.lproj/Main_iPhone.storyboard1c98841c6b87b941^e1b6ce206b87b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPhone.storyboard0000000000000000^938"CompileStoryboard StreamApp/Base.lproj/Main_iPhone.storyboard    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Base.lproj/Main_iPhone.storyboardc /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/Base.lproj/Main_iPhone.storyboard36"263123EB-00AE-474A-A769-C5660E6AB897-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CCopyStringsFile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/en.lproj/InfoPlist.strings StreamApp/en.lproj/InfoPlist.strings
+s428305180.517987
+e428305180.520663
+r1
+xCopyStringsFile
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/en.lproj/InfoPlist.strings
+xStreamApp/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy StreamApp/en.lproj/InfoPlist.strings121"CopyStringsFile build/Debug-iphonesimulator/StreamApp.app/en.lproj/InfoPlist.strings StreamApp/en.lproj/InfoPlist.strings0dab841c6b87b941^5838851c6b87b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/en.lproj/InfoPlist.strings0000000000000000^637"CopyStringsFile build/Debug-iphonesimulator/StreamApp.app/en.lproj/InfoPlist.strings StreamApp/en.lproj/InfoPlist.strings    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/en.lproj -- StreamApp/en.lproj/InfoPlist.strings36"F5B868A9-81B1-4DF0-92FC-A9C45C9AB6E6-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CGenerateDSYMFile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app.dSYM /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp
+r0
+
+CLd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp normal i386
+s428305180.189065
+e428305180.516577
+r1
+xLd
+x/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp
+xnormal
+xi386
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/StreamApp.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/main.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKViewController.o
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/DKAppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/FacebookSDK.framework/FacebookSDK
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp66"Ld build/Debug-iphonesimulator/StreamApp.app/StreamApp normal i386bb7b301c6b87b941^703f841c6b87b941^---0#0#1#--1598"Ld build/Debug-iphonesimulator/StreamApp.app/StreamApp normal i386    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp -filelist /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/StreamApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework FacebookSDK -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/Objects-normal/i386/StreamApp_dependency_info.dat -o /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/StreamApp36"483BE19F-596E-4036-952F-A0D78D50F315-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CProcessInfoPlistFile /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app/Info.plist /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/StreamApp-Info.plist
+r0
+
+CProcessPCH /Users/cvdeveloper/Library/Developer/Xcode/DerivedData/StreamApp-amimlkaktmwfmbghdlffegohdtoy/Index/PrecompiledHeaders/StreamApp-Prefix-bypgloaavlqybyfynczbvogdsvdz_ast/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/cvdeveloper/Library/Developer/Xcode/DerivedData/StreamApp-amimlkaktmwfmbghdlffegohdtoy/Index/PrecompiledHeaders/StreamApp-Prefix-ehujmrxtbaidiubltinmkjitgcji_ast/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428305179.254960
+e428305179.902403
+r1
+xProcessPCH
+x/var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch
+xStreamApp/StreamApp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/StreamApp-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile StreamApp/StreamApp-Prefix.pch298"ProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere868411b6b87b941^4205e71b6b87b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/StreamApp-Prefix.pch0000000000000000^4021"ProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/cvdeveloper/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-generated-files.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-own-target-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-all-target-headers.hmap -iquote /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/StreamApp-project-headers.hmap -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources/i386 -I/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/StreamApp.build/Debug-iphonesimulator/StreamApp.build/DerivedSources -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator -F/Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp --serialize-diagnostics /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.d -c /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/StreamApp/StreamApp-Prefix.pch -o /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-axvrscupmtnuwmbxwmamcmjftwfi/StreamApp-Prefix.pch.pch36"55C22171-E16B-4604-BB66-83C5F1BF295D-
+bF6EE9537-2E88-4091-8B62-E9AB406E020E
+
+CProcessPCH /var/folders/fb/n1v8hgmd3glg50f94100xpk40000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/StreamApp-Prefix-crbcedhrrdxvqafxtjdwygdxgxzs/StreamApp-Prefix.pch.pch StreamApp/StreamApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/cvdeveloper/Documents/coding-in-iOS/Facebook_ios/StreamApp/build/Debug-iphonesimulator/StreamApp.app
+r0
+

@@ -22,6 +22,7 @@
 		8E625FAB1987673300C1B506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E625F8A1987673200C1B506 /* UIKit.framework */; };
 		8E625FB31987673300C1B506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E625FB11987673300C1B506 /* InfoPlist.strings */; };
 		8E625FB51987673300C1B506 /* StreamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E625FB41987673300C1B506 /* StreamAppTests.m */; };
+		8E625FBF1987690C00C1B506 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E625FBE1987690C00C1B506 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8E625FB01987673300C1B506 /* StreamAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreamAppTests-Info.plist"; sourceTree = "<group>"; };
 		8E625FB21987673300C1B506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E625FB41987673300C1B506 /* StreamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamAppTests.m; sourceTree = "<group>"; };
+		8E625FBE1987690C00C1B506 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E625F891987673200C1B506 /* CoreGraphics.framework in Frameworks */,
+				8E625FBF1987690C00C1B506 /* FacebookSDK.framework in Frameworks */,
 				8E625F8B1987673200C1B506 /* UIKit.framework in Frameworks */,
 				8E625F871987673200C1B506 /* Foundation.framework in Frameworks */,
 			);
@@ -103,6 +106,7 @@
 		8E625F851987673200C1B506 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E625FBE1987690C00C1B506 /* FacebookSDK.framework */,
 				8E625F861987673200C1B506 /* Foundation.framework */,
 				8E625F881987673200C1B506 /* CoreGraphics.framework */,
 				8E625F8A1987673200C1B506 /* UIKit.framework */,
@@ -391,6 +395,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StreamApp/StreamApp-Prefix.pch";
 				INFOPLIST_FILE = "StreamApp/StreamApp-Info.plist";
@@ -404,6 +412,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StreamApp/StreamApp-Prefix.pch";
 				INFOPLIST_FILE = "StreamApp/StreamApp-Info.plist";
