@@ -32,7 +32,7 @@
     _image.image = [UIImage imageNamed: @"default.jpg"];
 //    CGSize imgSize = _image.image.size;
 //    [_image sizeToFit]; // if imageView larger than icon then fit to icon size. // if use default.jpg then too large for the cell, then the cell could not see anything.
-    [_image setContentMode:UIViewContentModeScaleAspectFit];    // if imageView larger then icon, then fit to imageView size.
+    [_image setContentMode:UIViewContentModeScaleAspectFit];    // if imageView larger than icon, then fit to imageView size.
 //    typedef NS_ENUM(NSInteger, UIViewContentMode) {
 //        UIViewContentModeScaleToFill,
 //        UIViewContentModeScaleAspectFit,      // contents scaled to fit with fixed aspect. remainder is transparent

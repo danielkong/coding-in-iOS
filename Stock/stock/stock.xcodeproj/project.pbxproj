@@ -15,6 +15,12 @@
 		8EEFEAE81AEA1BA500222E70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEFEAE71AEA1BA500222E70 /* Images.xcassets */; };
 		8EEFEAEB1AEA1BA500222E70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EEFEAE91AEA1BA500222E70 /* LaunchScreen.xib */; };
 		8EEFEAF71AEA1BA500222E70 /* stockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFEAF61AEA1BA500222E70 /* stockTests.m */; };
+		8EEFEB011AEA3D1F00222E70 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEFEB001AEA3D1F00222E70 /* default.jpg */; };
+		8EFD94FF1AEFFD2200A0FB87 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD94FA1AEFFD2200A0FB87 /* JVFloatLabeledTextField.m */; };
+		8EFD95001AEFFD2200A0FB87 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD94FC1AEFFD2200A0FB87 /* JVFloatLabeledTextView.m */; };
+		8EFD95011AEFFD2200A0FB87 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD94FE1AEFFD2200A0FB87 /* NSString+TextDirectionality.m */; };
+		8EFD951B1AF0C51900A0FB87 /* StockAPIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD951A1AF0C51900A0FB87 /* StockAPIUtil.m */; };
+		8EFD951C1AF0C51900A0FB87 /* StockAPIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD951A1AF0C51900A0FB87 /* StockAPIUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +36,7 @@
 /* Begin PBXFileReference section */
 		8EEFEAD41AEA1BA500222E70 /* stock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEFEAD81AEA1BA500222E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EEFEAD91AEA1BA500222E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EEFEAD91AEA1BA500222E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; wrapsLines = 0; };
 		8EEFEADB1AEA1BA500222E70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EEFEADC1AEA1BA500222E70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8EEFEADE1AEA1BA500222E70 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -43,6 +49,15 @@
 		8EEFEAF01AEA1BA500222E70 /* stockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEFEAF51AEA1BA500222E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EEFEAF61AEA1BA500222E70 /* stockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stockTests.m; sourceTree = "<group>"; };
+		8EEFEB001AEA3D1F00222E70 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		8EFD94F91AEFFD2200A0FB87 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		8EFD94FA1AEFFD2200A0FB87 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		8EFD94FB1AEFFD2200A0FB87 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		8EFD94FC1AEFFD2200A0FB87 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		8EFD94FD1AEFFD2200A0FB87 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		8EFD94FE1AEFFD2200A0FB87 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		8EFD95191AF0C51900A0FB87 /* StockAPIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockAPIUtil.h; sourceTree = "<group>"; };
+		8EFD951A1AF0C51900A0FB87 /* StockAPIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockAPIUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,8 @@
 			children = (
 				8EEFEADB1AEA1BA500222E70 /* AppDelegate.h */,
 				8EEFEADC1AEA1BA500222E70 /* AppDelegate.m */,
+				8EFD95191AF0C51900A0FB87 /* StockAPIUtil.h */,
+				8EFD951A1AF0C51900A0FB87 /* StockAPIUtil.m */,
 				8EEFEADE1AEA1BA500222E70 /* FirstViewController.h */,
 				8EEFEADF1AEA1BA500222E70 /* FirstViewController.m */,
 				8EEFEAE11AEA1BA500222E70 /* SecondViewController.h */,
@@ -93,6 +110,7 @@
 				8EEFEAE41AEA1BA500222E70 /* Main.storyboard */,
 				8EEFEAE71AEA1BA500222E70 /* Images.xcassets */,
 				8EEFEAE91AEA1BA500222E70 /* LaunchScreen.xib */,
+				8EFD95021AEFFD3B00A0FB87 /* JVFloatlabeledTextField */,
 				8EEFEAD71AEA1BA500222E70 /* Supporting Files */,
 			);
 			path = stock;
@@ -101,6 +119,7 @@
 		8EEFEAD71AEA1BA500222E70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EEFEB001AEA3D1F00222E70 /* default.jpg */,
 				8EEFEAD81AEA1BA500222E70 /* Info.plist */,
 				8EEFEAD91AEA1BA500222E70 /* main.m */,
 			);
@@ -122,6 +141,19 @@
 				8EEFEAF51AEA1BA500222E70 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EFD95021AEFFD3B00A0FB87 /* JVFloatlabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD94F91AEFFD2200A0FB87 /* JVFloatLabeledTextField.h */,
+				8EFD94FA1AEFFD2200A0FB87 /* JVFloatLabeledTextField.m */,
+				8EFD94FB1AEFFD2200A0FB87 /* JVFloatLabeledTextView.h */,
+				8EFD94FC1AEFFD2200A0FB87 /* JVFloatLabeledTextView.m */,
+				8EFD94FD1AEFFD2200A0FB87 /* NSString+TextDirectionality.h */,
+				8EFD94FE1AEFFD2200A0FB87 /* NSString+TextDirectionality.m */,
+			);
+			name = JVFloatlabeledTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +239,7 @@
 				8EEFEAE61AEA1BA500222E70 /* Main.storyboard in Resources */,
 				8EEFEAEB1AEA1BA500222E70 /* LaunchScreen.xib in Resources */,
 				8EEFEAE81AEA1BA500222E70 /* Images.xcassets in Resources */,
+				8EEFEB011AEA3D1F00222E70 /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +257,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFD95001AEFFD2200A0FB87 /* JVFloatLabeledTextView.m in Sources */,
 				8EEFEAE31AEA1BA500222E70 /* SecondViewController.m in Sources */,
+				8EFD95011AEFFD2200A0FB87 /* NSString+TextDirectionality.m in Sources */,
 				8EEFEADD1AEA1BA500222E70 /* AppDelegate.m in Sources */,
 				8EEFEAE01AEA1BA500222E70 /* FirstViewController.m in Sources */,
+				8EFD951B1AF0C51900A0FB87 /* StockAPIUtil.m in Sources */,
+				8EFD94FF1AEFFD2200A0FB87 /* JVFloatLabeledTextField.m in Sources */,
 				8EEFEADA1AEA1BA500222E70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EEFEAF71AEA1BA500222E70 /* stockTests.m in Sources */,
+				8EFD951C1AF0C51900A0FB87 /* StockAPIUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +458,7 @@
 				8EEFEAFC1AEA1BA600222E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EEFEAFD1AEA1BA600222E70 /* Build configuration list for PBXNativeTarget "stockTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +467,7 @@
 				8EEFEAFF1AEA1BA600222E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
