@@ -25,7 +25,6 @@
     }
     
     if ([data intValue]/1000000) {
-        double rounded_up = ceilf((double)[data intValue]/1000000);
         return [NSString stringWithFormat:@"%.02fM", (double)[data intValue]/1000000];
     }
         
@@ -45,11 +44,6 @@
     if (![data isKindOfClass:[NSString class]]) {
         return @"-";
     }
-    
-//    if ([data intValue]/1000000) {
-//        double rounded_up = ceilf((double)[data intValue]/1000000);
-//        return [NSString stringWithFormat:@"%.02fM", (double)[data intValue]/1000000];
-//    }
     
     return data;
 }

@@ -18,7 +18,10 @@ const static CGFloat kJVFieldHMargin = 10.0f;
 const static CGFloat kJVFieldFontSize = 16.0f;
 const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
 
-@interface FirstViewController () 
+#define kLightGreen [UIColor colorWithRed: 180.0/255.0 green: 238.0/255.0 blue:180.0/255.0 alpha: 1.0];
+#define kLightBlue [UIColor colorWithRed: 135.0/255.0 green: 206.0/255.0 blue:230.0/255.0 alpha: 1.0];
+
+@interface FirstViewController () <UITextFieldDelegate>
 
 @property (nonatomic, strong) UITextField *textField;   // input v0.0
 @property (nonatomic, strong) JVFloatLabeledTextField *titleField; // input version 0.1
@@ -38,6 +41,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
 
 
 @property (nonatomic, strong) UIImageView *imageView;   // output
+@property (nonatomic, strong) NSTimer *mute;
 
 @end
 
@@ -47,6 +51,21 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self setupUI];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    _mute = [NSTimer scheduledTimerWithTimeInterval:3.0f
+                                            target:self
+                                          selector:@selector(checkIfMuteIsOn)
+                                          userInfo:nil
+                                           repeats:YES];
+}
+
+- (void) viewWillDisappear:(BOOL)animated;
+{
+    [super viewWillDisappear:animated];
+    [_mute invalidate];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -115,13 +134,12 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     return _imageView;
 }
 
-
 -(void) buttonClicked:(UIButton*)sender
 {
     
     [_titleField resignFirstResponder];
     
-    NSLog(@"you clicked on button %ld", (long)sender.tag);
+//    NSLog(@"you clicked on button %ld", (long)sender.tag);
     
     NSString *urlString = [NSString stringWithFormat:@"http://stockcharts.com/c-sc/sc?s=%@&p=D&b=5&g=0&i=p09448260106", _titleField.text];
     NSLog(@"%@", urlString);
@@ -130,8 +148,8 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
     [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
         if ([data length]>0 && error == nil) {
-            NSString *html = [[NSString alloc] initWithData:data
-                                                   encoding:NSUTF8StringEncoding];
+//            NSString *html = [[NSString alloc] initWithData:data
+//                                                   encoding:NSUTF8StringEncoding];
 //            NSLog(@"HTML = %@", html);
             
             dispatch_async(dispatch_get_main_queue(), ^(void){
@@ -169,8 +187,8 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
                     _avgVolField.text = [StockAPIUtil getVolumeString:avgVolString];
                     
                     
-                    _peField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@"OneyrTargetPrice"]];
-                    _targetPriceField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@"PERatio"]];
+                    _peField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@"PERatio"]];
+//                    _targetPriceField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@""]];// OneyrTargetPrice
                     _pbField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@"PriceBook"]];
                     _epsField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@"EarningsShare"]];
                     _shortRatioField.text = [StockAPIUtil getValidRatio:[[[[[dict objectForKey:@"query"] objectForKey:@"results"] objectForKey:@"quote"] objectAtIndex:0] objectForKey:@"ShortRatio"]];
@@ -204,6 +222,8 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     _titleField.floatingLabelFont = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
     _titleField.floatingLabelTextColor = floatingLabelColor;
     _titleField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _titleField.delegate = self;
+
     [self.view addSubview:_titleField];
     _titleField.translatesAutoresizingMaskIntoConstraints = NO;
     _titleField.keepBaseline = 1;
@@ -295,7 +315,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
 //    div5.translatesAutoresizingMaskIntoConstraints = NO;
     
     _peField = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectZero];
-    _peField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"1YrTarget", @"")    // P/E
+    _peField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"P/E", @"")    // P/E
                                                                         attributes:@{NSForegroundColorAttributeName: [UIColor darkGrayColor]}];
     _peField.font = [UIFont systemFontOfSize:kJVFieldFontSize];
     _peField.floatingLabelFont = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
@@ -304,15 +324,15 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     [self.view addSubview:_peField];
     _peField.translatesAutoresizingMaskIntoConstraints = NO;
     
-    _targetPriceField = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectZero];
-    _targetPriceField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"P/E", @"")
-                                                                     attributes:@{NSForegroundColorAttributeName: [UIColor darkGrayColor]}];
-    _targetPriceField.font = [UIFont systemFontOfSize:kJVFieldFontSize];
-    _targetPriceField.floatingLabelFont = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
-    _targetPriceField.floatingLabelTextColor = floatingLabelColor;
-    [_targetPriceField setUserInteractionEnabled:NO];
-    [self.view addSubview:_targetPriceField];
-    _targetPriceField.translatesAutoresizingMaskIntoConstraints = NO;
+//    _targetPriceField = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectZero];
+//    _targetPriceField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"P/E", @"")   //1YrTarget
+//                                                                     attributes:@{NSForegroundColorAttributeName: [UIColor darkGrayColor]}];
+//    _targetPriceField.font = [UIFont systemFontOfSize:kJVFieldFontSize];
+//    _targetPriceField.floatingLabelFont = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
+//    _targetPriceField.floatingLabelTextColor = floatingLabelColor;
+//    [_targetPriceField setUserInteractionEnabled:NO];
+//    [self.view addSubview:_targetPriceField];
+//    _targetPriceField.translatesAutoresizingMaskIntoConstraints = NO;
 
     UIView *div41 = [UIView new];
     div41.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.3f];
@@ -381,7 +401,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     [updateButton addTarget:self
                      action:@selector(buttonClicked:)
            forControlEvents:UIControlEventTouchUpInside];
-    updateButton.backgroundColor = [UIColor blueColor];
+    updateButton.backgroundColor = kLightBlue;
     [self.view addSubview:updateButton];
     
     _imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"default.jpg"]];
@@ -412,7 +432,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
 
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[updateButton]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(updateButton)]];
 
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(xMargin)-[_peField]-[_targetPriceField]-(xMargin)-[div41(1)]-(xMargin)-[_pbField]-(xMargin)-[div42(1)]-(xMargin)-[_epsField]-(xMargin)-[div43(1)]-[_shortRatioField]-[div44(1)]-(xMargin)-[_mktCapField]-(xMargin)-|" options:NSLayoutFormatAlignAllCenterY metrics:@{@"xMargin": @(kJVFieldHMargin)} views:NSDictionaryOfVariableBindings(_peField, _targetPriceField, div41, _pbField, div42, _epsField, div43, _shortRatioField, div44, _mktCapField)]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(xMargin)-[_peField]-(xMargin)-[div41(1)]-(xMargin)-[_pbField]-(xMargin)-[div42(1)]-(xMargin)-[_epsField]-(xMargin)-[div43(1)]-[_shortRatioField]-[div44(1)]-(xMargin)-[_mktCapField]-(xMargin)-|" options:NSLayoutFormatAlignAllCenterY metrics:@{@"xMargin": @(kJVFieldHMargin)} views:NSDictionaryOfVariableBindings(_peField, div41, _pbField, div42, _epsField, div43, _shortRatioField, div44, _mktCapField)]];
 
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[statusBarView][_titleField(==minHeight)][div1(1)][_priceField(==minHeight)][div3(1)][_peField(==minHeight)][updateButton(>=minHeight)][scrollView(>=minHeight)]|" options:0 metrics:@{@"minHeight": @(kJVFieldHeight)} views:NSDictionaryOfVariableBindings(statusBarView, _titleField, div1, _priceField, div3, _peField, updateButton, scrollView)]];
 //    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[statusBarView][_titleField(>=minHeight)][div1(1)][_priceField(>=minHeight)][div3(1)][descriptionField(>=minHeight)][div5(1)][_peField(>=minHeight)]|" options:0 metrics:@{@"minHeight": @(kJVFieldHeight)} views:NSDictionaryOfVariableBindings(statusBarView, _titleField, div1, _priceField, div3, descriptionField, div5, _peField)]];
@@ -442,6 +462,50 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
 
     [_titleField becomeFirstResponder];
 
+}
+
+- (void)checkIfMuteIsOn {
+    NSDate *today = [NSDate date];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    // display in 12HR/24HR (i.e. 11:25PM or 23:25) format according to User Settings
+    [dateFormatter setTimeStyle:NSDateFormatterShortStyle];
+    NSString *currentTime = [dateFormatter stringFromDate:today];
+    NSLog(@"%@",currentTime);
+    
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSDateComponents *dateComponents = [gregorian components:(NSHourCalendarUnit  | NSMinuteCalendarUnit | NSSecondCalendarUnit) fromDate:today];
+    NSInteger hour = [dateComponents hour];
+    NSInteger minute = [dateComponents minute];
+    NSInteger second = [dateComponents second];
+    NSLog(@"Current Time  %@",[NSString stringWithFormat:@"%02d:%02d:%02d", hour, minute, second]);
+
+    [self buttonClicked:nil];
+}
+
+#pragma mark - UITextField Delegate
+
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    return YES;}        // return NO to disallow editing.
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    [_mute invalidate];
+}           // became first responder
+- (BOOL)textFieldShouldEndEditing:(UITextField *)textField {
+    
+    return YES;}          // return YES to allow editing to stop and to resign first responder status. NO to disallow the editing session to end
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    _mute = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(checkIfMuteIsOn) userInfo:nil repeats:YES];
+//    [_mute fire];
+}             // may be called if forced even if shouldEndEditing returns NO (e.g. view removed from window) or endEditing:YES called
+
+//- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;   // return NO to not change text
+
+
+
+-(void) textFieldDidChange:(id)sender{
+    [_mute invalidate];
+    _mute = nil;
+    _mute = [NSTimer scheduledTimerWithTimeInterval:0 target:self selector:@selector(buttonClicked:) userInfo:nil repeats:NO];
 }
 
 @end
