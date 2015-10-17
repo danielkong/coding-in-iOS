@@ -1,3 +1,4 @@
+Implement:
 1. JVFloatLabeledTextField instead of UILabel.
 2. NSTimer used for refresh.
 3. NSURLRequest, NSURLConnection used for get data.
