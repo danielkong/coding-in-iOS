@@ -4,6 +4,9 @@ Implement:
 3. NSURLRequest, NSURLConnection used for get data.
 4. UIView addConstraint: NSLayoutConstraint to resize.
 
+DOING:
+NSURLSession
+
 TO DO:
 1. Get financail report.
 2. Parse data from Quanqiu Dongtai Jun or LaoLu.
