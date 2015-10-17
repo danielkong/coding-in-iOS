@@ -1,0 +1,10 @@
+1. JVFloatLabeledTextField instead of UILabel.
+2. NSTimer used for refresh.
+3. NSURLRequest, NSURLConnection used for get data.
+4. UIView addConstraint: NSLayoutConstraint to resize.
+
+TO DO:
+1. Get financail report.
+2. Parse data from Quanqiu Dongtai Jun or LaoLu.
+
+
